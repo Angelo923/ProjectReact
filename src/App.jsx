@@ -1,4 +1,14 @@
+import Titulo from './Titulo.jsx'
 function App() {
 
-  return <h1>Ola mundo!</h1>
+  return (
+  <div>
+    <Titulo cor = "blue" nome = "Angelo"/>
+    <Titulo cor = "red"/>
+    <Titulo cor = "green"/>
+    <Titulo cor = "gray"/>
+  </div>
+  )
 }
+
+export default App
